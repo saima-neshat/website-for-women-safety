@@ -1,0 +1,197 @@
+@font-face {
+	font-family: 'cnCrowdynewsFontello';
+	src: url('../font/fontello.eot?29794035');
+	src: url('../font/fontello.eot?29794035#iefix') format('embedded-opentype'),
+	   url('../font/fontello.woff?29794035') format('woff'),
+	   url('../font/fontello.ttf?29794035') format('truetype'),
+	   url('../font/fontello.svg?29794035#cnCrowdynewsFontello') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+div.cnWidget [class^="icon-"]:before, div.cnWidget [class*=" icon-"]:before,
+div.cnWidgetOverlay [class^="icon-"]:before, div.cnWidgetOverlay [class*=" icon-"]:before {
+	font-family: "cnCrowdynewsFontello";
+	font-style: normal;
+	font-weight: normal;
+	speak: none;
+	display: inline-block;
+	text-decoration: inherit;
+	width: 1em;
+	margin-right: .2em;
+	text-align: center;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1em;
+	margin-left: .2em;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+div.cnWidget .icon-comment:before,
+div.cnWidgetOverlay .icon-comment:before { content: '\e800'; } /* '' */
+
+div.cnWidget .icon-thumbs-down-alt:before,
+div.cnWidgetOverlay .icon-thumbs-down-alt:before { content: '\e801'; } /* '' */
+
+div.cnWidget .icon-thumbs-up-alt:before,
+div.cnWidgetOverlay .icon-thumbs-up-alt:before { content: '\e802'; } /* '' */
+
+div.cnWidget .icon-info:before,
+div.cnWidgetOverlay .icon-info:before { content: '\e803'; } /* '' */
+
+div.cnWidget .icon-spin5:before,
+div.cnWidgetOverlay .icon-spin5:before { content: '\e804'; } /* '' */
+
+div.cnWidget .icon-menu:before,
+div.cnWidgetOverlay .icon-menu:before { content: '\e805'; } /* '' */
+
+div.cnWidget .icon-cog:before,
+div.cnWidgetOverlay .icon-cog:before { content: '\e806'; } /* '' */
+
+div.cnWidget .icon-cancel:before,
+div.cnWidgetOverlay .icon-cancel:before { content: '\e807'; } /* '' */
+
+div.cnWidget .icon-play:before,
+div.cnWidgetOverlay .icon-play:before { content: '\e808'; } /* '' */
+
+div.cnWidget .icon-resize-full:before,
+div.cnWidgetOverlay .icon-resize-full:before { content: '\e809'; } /* '' */
+
+div.cnWidget .icon-slack:before,
+div.cnWidgetOverlay .icon-slack:before { content: '\e80a'; } /* '' */
+
+div.cnWidget .icon-star-empty:before,
+div.cnWidgetOverlay .icon-star-empty:before { content: '\e80b'; } /* '' */
+
+div.cnWidget .icon-reply:before,
+div.cnWidgetOverlay .icon-reply:before { content: '\e80c'; } /* '' */
+
+div.cnWidget .icon-retweet:before,
+div.cnWidgetOverlay .icon-retweet:before { content: '\e80d'; } /* '' */
+
+div.cnWidget .icon-twitter:before,
+div.cnWidgetOverlay .icon-twitter:before { content: '\e80e'; } /* '' */
+
+div.cnWidget .icon-down-open:before,
+div.cnWidgetOverlay .icon-down-open:before { content: '\e80f'; } /* '' */
+
+div.cnWidget .icon-down-dir:before,
+div.cnWidgetOverlay .icon-down-dir:before { content: '\e810'; } /* '' */
+
+div.cnWidget .icon-logout:before,
+div.cnWidgetOverlay .icon-logout:before { content: '\e811'; } /* '' */
+
+div.cnWidget .icon-share:before,
+div.cnWidgetOverlay .icon-share:before { content: '\e812'; } /* '' */
+
+div.cnWidget .icon-right-open:before,
+div.cnWidgetOverlay .icon-right-open:before { content: '\e813'; } /* '' */
+
+div.cnWidget .icon-left-open:before,
+div.cnWidgetOverlay .icon-left-open:before { content: '\e814'; } /* '' */
+
+div.cnWidget .icon-facebook:before,
+div.cnWidgetOverlay .icon-facebook:before { content: '\e815'; } /* '' */
+
+div.cnWidget .icon-linkedin:before,
+div.cnWidgetOverlay .icon-linkedin:before { content: '\e816'; } /* '' */
+
+div.cnWidget .icon-youtube:before,
+div.cnWidgetOverlay .icon-youtube:before { content: '\e817'; } /* '' */
+
+div.cnWidget .icon-gplus:before,
+div.cnWidgetOverlay .icon-gplus:before { content: '\e818'; } /* '' */
+
+div.cnWidget .icon-globe:before,
+div.cnWidgetOverlay .icon-globe:before { content: '\e819'; } /* '' */
+
+div.cnWidget .icon-share-2:before,
+div.cnWidgetOverlay .icon-share-2:before { content: '\e81B'; } /* '' */
+
+
+/*
+   Animation example, for spinners
+*/
+.animate-spin {
+  -moz-animation: spin 2s 10s linear;
+  -o-animation: spin 2s 10s linear;
+  -webkit-animation: spin 2s 10s linear;
+  animation: spin 2s 10s linear;
+  display: inline-block;
+}
+@-moz-keyframes spin {
+  0% {
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg);
+  }
+
+  100% {
+	-moz-transform: rotate(359deg);
+	-o-transform: rotate(359deg);
+	-webkit-transform: rotate(359deg);
+	transform: rotate(359deg);
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg);
+  }
+
+  100% {
+	-moz-transform: rotate(359deg);
+	-o-transform: rotate(359deg);
+	-webkit-transform: rotate(359deg);
+	transform: rotate(359deg);
+  }
+}
+@-o-keyframes spin {
+  0% {
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg);
+  }
+
+  100% {
+	-moz-transform: rotate(359deg);
+	-o-transform: rotate(359deg);
+	-webkit-transform: rotate(359deg);
+	transform: rotate(359deg);
+  }
+}
+@-ms-keyframes spin {
+  0% {
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg);
+  }
+
+  100% {
+	-moz-transform: rotate(359deg);
+	-o-transform: rotate(359deg);
+	-webkit-transform: rotate(359deg);
+	transform: rotate(359deg);
+  }
+}
+@keyframes spin {
+  0% {
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg);
+  }
+
+  100% {
+	-moz-transform: rotate(359deg);
+	-o-transform: rotate(359deg);
+	-webkit-transform: rotate(359deg);
+	transform: rotate(359deg);
+  }
+}

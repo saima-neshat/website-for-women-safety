@@ -1,0 +1,257 @@
+/** reset **/\na,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,font,form,h1,h2,h3,h4,h5,h6,html,iframe,img,ins,kbd,label,legend,li,object,ol,p,pre,q,s,samp,small,span,strike,strong,sub,sup,table,tbody,td,tfoot,th,thead,tr,tt,ul,var{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline}:focus{outline:0}body{line-height:1;color:#000;background:#fff}ol,ul{list-style:none}table{border-collapse:separate;border-spacing:0}caption,td,th{text-align:left;font-weight:400}blockquote:after,blockquote:before,q:after,q:before{content:""}blockquote,q{quotes:"" ""}
+
+html, body 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+.abs-tl
+{
+	position: absolute;
+	left:0px;
+	top:0px;
+}
+
+.abs-bl
+{
+	position: absolute;
+	left:0px;
+	bottom:0px;
+}
+
+.abs-tr
+{
+	position: absolute;
+	right:0px;
+	top:0px;
+}
+
+.abs-br
+{
+	position: absolute;
+	right:0px;
+	bottom:0px;
+}
+
+.force3d
+{
+	-webkit-transform: translatez(0);
+	-moz-transform: translatez(0);
+	-ms-transform: translatez(0);
+	-o-transform: translatez(0);
+	transform: translatez(0);
+}
+
+.retina
+{
+	-webkit-transform: scale(0.5);
+	-moz-transform: scale(0.5);
+	-ms-transform: scale(0.5);
+	-o-transform: scale(0.5);
+	transform: scale(0.5);
+
+	-webkit-transform-origin: top left;
+	-moz-transform-origin: top left;
+	-ms-transform-origin: top left;
+	-o-transform-origin: top left;
+	transform-origin: top left;
+}
+
+/******* PNG SPRITE SHEET********/
+.pngsprites
+{
+  background: url('pngsprites.png') no-repeat
+}
+
+.hbslogo
+{
+  background-position:0px 0px;
+  width:344px;
+  height:106px;
+}
+
+/******* SVG SPRITE SHEET********/
+.svgsprites
+{
+  background: url('svgsprites.svg') no-repeat
+}
+
+.copyset01
+{
+  background-position:-1px -1px;
+  width:275px;
+  height:57px;
+}
+
+.copyset02
+{
+  background-position:-1px -86px;
+  width:205px;
+  height:29px;
+}
+
+.blackbox
+{
+  background-position:-290px -1px;
+  width:300px;
+  height:166px;
+}
+
+.lgarrow
+{
+  background-position:-290px -172px;
+  width:314px;
+  height:128px;
+}
+
+.copyset03
+{
+  background-position:-1px -198px;
+  width:188px;
+  height:85px;
+}
+
+.learnmoreCTA
+{
+  background-position:-1px -280px;
+  width:105px;
+  height:25px;
+}
+
+.circleCTA
+{
+  background-position:-31px -314px;
+  width:22px;
+  height:22px;
+}
+
+.arrow
+{
+  background-position:-6px -318px;
+  width:17px;
+  height:14px;
+}
+
+.copyDate
+{
+  background-position:-287px -310px;
+  width:102px;
+  height:18px;
+}
+
+/******* ELEMENT CSS ********/
+.container
+{
+  position:relative;
+  width:300px;
+  height:250px;
+  overflow:hidden;
+  background-color:#FAA353;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: solid #000 1px;
+  overflow: hidden;
+
+}
+
+.container .frame03
+{
+  top: 0px;
+  left: 0px;
+}
+
+.container .frame03
+{  top: 0px;
+  left: 0px;
+}
+
+.container .frame03 .lgarrow
+{
+  top: 77px;
+  left: -24px;
+}
+
+.container .frame03 .copyDate
+{
+  top: 185px;
+  left: 11px;
+}
+
+.container .frame03 .copyset03
+{
+  top: 90px;
+  left: 11px;
+}
+
+.container .frame03 .circleCTA
+{
+  top: 212px;
+  left: 11px;
+}
+
+.container .frame03 .learnmoreCTA
+{
+  top: 213px;
+  left: 35px;
+}
+
+.container .frame03 .arrow
+{
+  top: 216px;
+  left: 14px;
+}
+
+.container .frame02
+{
+  top: 0px;
+  left: 0px;
+}
+
+.container .frame02
+{  top: 0px;
+  left: 0px;
+}
+
+.container .frame02 .copyset02
+{
+  top: 101px;
+  left: 10px;
+}
+
+.container .frame01
+{
+  top: 0px;
+  left: 0px;
+}
+
+.container .frame01
+{  top: 0px;
+  left: 0px;
+}
+
+.container .frame01 .copyset01
+{
+  top: 85px;
+  left: 9px;
+}
+
+.container .hbslogo
+{
+  top: 10px;
+  left: 10px;
+  -webkit-transform: scale(0.50, 0.50);
+  -moz-transform: scale(0.50, 0.50);
+  -ms-transform: scale(0.50, 0.50);
+  -o-transform: scale(0.50, 0.50);
+  transform: scale(0.50, 0.50);
+  
+  -webkit-transform-origin: top left;
+  -moz-transform-origin: top left;
+  -ms-transform-origin: top left;
+  -o-transform-origin: top left;
+  transform-origin: top left;
+}
+

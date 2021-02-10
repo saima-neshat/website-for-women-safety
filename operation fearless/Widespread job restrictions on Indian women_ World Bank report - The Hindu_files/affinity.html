@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!-- saved from url=(0068)http://vuukle.com/affinity.aspx?host=thehindu.com&bust=1461395557738 -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title></title>
+<script type="text/javascript">
+        (function () {
+            var pubs = {
+                "indianexpress.com": "wzj77",
+                // "abc.loksatta.com": "ekl00", // SUbdomian can have its own pid 
+                "loksatta.com": "ekl00",
+                "localhost": "wzj77",
+                "financialexpress.com": "ipz05",
+                "jansatta.com": "onz22",
+                "Boldsky.com": "tfv48",
+                "oneindia.com": "qxo06",
+                "filmibeat.com": "ykf88",
+                "gizbot.com": "qpc75",
+                "goodreturns.in": "dbw12",
+                "drivespark.com": "epm65",
+                "nativeplanet.com": "xbn59",
+                "aajtak.intoday.in": "jzw31",
+                //"aajtak.in": "nwv51",
+                "indiatoday.intoday.in": "pdy38",
+                "businesstoday.in": "wzk95",
+                "ichowk.in": "pff58",
+                "dailyo.in": "pkf85",
+                "pakwangali.in": "bop25",
+                "wonderwoman.intoday.in": "yfg50",
+                "thehindu.com": "rtu74",
+                "thehindubusinessline.com": "kwd08",
+                "indiatvnews.com": "ffo18",
+                "khabarindiatv.com": "xqo86",
+                "zeetv.com": "bwc89",
+                "andtv.com": "slc28",
+                "etc.in": "iac52",
+                "ozee.com": "erv12",
+                "zeebangla.com": "jge12",
+                "zeekannadatv.com": "icn26",
+                "zeetamizh.com": "trc54",
+                "zeetelugu.com": "nod95",
+                "zindagitv.in": "gpf26",
+                "zingtv.in": "pwn93",
+                "asianage.com": "jmg83",
+                "deccanchronicle.com": "lrx50",
+                "mydigitalfc.com": "kky42",
+                "bloncampus.com": "rhl35",
+                "wahcricket.com": "rrl14",
+                "filmymonkey.com": "cnj18",
+                "abplive.in": "ctj56",
+                "bollywoodtadka.in": "uol41",
+                "punjabkesari.in": "gct37",
+                "vikatan.com": "cpp23",
+                "patrika.com": "huc14",
+                "catchnews.com": "hdu53"
+            };
+
+            if (typeof String.prototype.trim !== 'function') {
+                String.prototype.trim = function () {
+                    return this.replace(/^\s+|\s+$/g, '');
+                }
+            }
+
+            function chkSubDomain(mainDomain, subDomain) {
+                mainDomain = mainDomain.toLowerCase().trim();
+                subDomain = subDomain.toLowerCase().trim();
+                var diff;
+                if (mainDomain == subDomain) {
+                    return true;
+                }
+
+                if (mainDomain.length != subDomain.length) {
+                    if (subDomain.length > mainDomain.length) {
+                        diff = subDomain.length - mainDomain.length;
+                        if (subDomain.substring(diff - 1, diff) != '.') {
+                            return false;
+                        }
+                        if (subDomain.substring(diff) == mainDomain) {
+                            return true;
+                        }
+                    }
+                    return false;
+                }
+                return false;
+            }
+
+            function getPid() {
+                var ret = "hdu55",
+                    host = "";
+                try {
+                    var href = decodeURIComponent(location.href).toLowerCase().trim();
+
+                    href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                        if ("host" == key.trim()) {
+                            host = (value.split("#")[0]).trim();
+                        }
+                    });
+                } catch (e) { }
+
+                if ("" != host) {
+                    for (var regHost in pubs) {
+                        if (pubs.hasOwnProperty(regHost)) {
+                            if (chkSubDomain(regHost, host)) {
+                                ret = pubs[regHost];
+                                break;
+                            }
+                        }
+                    }
+                }
+                return ret;
+            }
+
+            (function () { var pid = getPid(), W = window, D = document, a = 'script', b = "text/java" + a, c = '.ph.affinity.com/', f = 'localStorage', l = D.createElement(a), p = W.location.protocol, n = new Date(), t = d = 0, s = (W[f] && 1) || 0, v = '', j = (W.JSON && 1) || 0, m = (W.postMessage && 1) || 0, e = function (a) { return encodeURIComponent(a) }, g = [n.getFullYear(), 1 + n.getMonth(), n.getDate()].join('-'); l.type = b; l.async = !0; (D.getElementsByTagName(a)[0]).parentNode.appendChild(l); l.src = p + '//c1' + ((p === 'https:') ? "s" : "") + c + g + '/ipv4l.js'; try { if (top.location.href) { t = 1; d = (top.document === D) | 0 } } catch (x) { } if (s) { v = W[f].getItem('_aff_ip_lib_v') || '' } D.write('<scri' + 'pt type="' + b + '" src="' + p + '//ip' + c + 'ur.js?pid=' + e(pid), '&rf=' + e(D.referrer), '&tw=' + t, '&td=' + d, '&pm=' + m, '&ls=' + s, '&jn=', j, '&af=' + v, '&ag=', g, '&affr2=' + (((n.getTime() | 0) * Math.random()) | 0) + '"></scr' + 'ipt>') })();
+
+        })();
+    </script><script type="text/javascript" async="" src="./ipv4l.js"></script><script type="text/javascript" src="./ur.js"></script></head><body><ins id="E_rtu74_1749590795" style="width: 300px; height: 250px; border: 0px; margin: 0px; padding: 0px; visibility: visible; overflow: hidden; display: inline-block;"><iframe src="javascript:false" id="FE_rtu74_1749590795" width="300" height="250" scrolling="no" frameborder="0" style="width: 300px; height: 250px; border: 0px; margin: 0px; padding: 0px; visibility: visible; overflow: hidden;" src="./saved_resource(19).html"></iframe></ins>
+
+
+
+
+</body></html>

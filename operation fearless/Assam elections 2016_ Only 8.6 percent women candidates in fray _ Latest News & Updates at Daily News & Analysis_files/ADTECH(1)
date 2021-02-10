@@ -1,0 +1,18 @@
+document.write("<scr"+"ipt async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></scr"+"ipt>\n");
+document.write("<ins class=\"adsbygoogle\"\n");
+document.write("     style=\"display:inline-block;width:300px;height:250px\"\n");
+document.write("     data-ad-client=\"ca-pub-6717584324019958\"\n");
+document.write("     data-ad-slot=\"9364353449\"></ins>\n");
+document.write("<scr"+"ipt type=\"text/javascript\" src=\"http://aka-cdn-ns.adtechus.com/apps/61/Ad8215101St3Sz170Sq25109954V1Id1/extFile1.js\"></scr"+"ipt>\n");
+
+var adcount_3965345_1_=new Image();
+adcount_3965345_1_.src="http://adnet.affinity.com/adcount/3.0/5359/3965345/0/170/AdId=8215101;BnId=1;ct=3561916096;st=4035;adcid=1;itime=396248123;reqtype=5;;key=google%5Fbackfill;kvrit=1461395595681;kvreqseq=2;kvuniqimp=bef422a75a20410b8d4a6ce0d9c09b1f0423;kvadvbackfill=google%5Fbackfill;";
+
+var _comscore = _comscore || []; 
+_comscore.push({ c1: "8", c2: "16789691" ,c3: "9999999999" }); 
+(function() { 
+var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+ s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+ el.parentNode.insertBefore(s, el); 
+})(); 
+ 

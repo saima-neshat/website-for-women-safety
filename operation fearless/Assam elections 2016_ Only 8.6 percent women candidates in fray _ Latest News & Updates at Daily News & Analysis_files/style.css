@@ -1,0 +1,168 @@
+
+body, body * {
+  vertical-align: baseline;
+  border: 0 none;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 9pt;
+  color: #333;
+}
+
+
+#main-container {
+  position: absolute;
+  box-sizing: border-box;
+  background: #fff;
+  overflow: hidden;
+  border: 1px #000 solid;
+}
+
+.container--300x250 {
+  width: 300px;
+  height: 250px;
+}
+
+.container--250x250 {
+  width: 250px;
+  height: 250px;
+}
+
+.container--300x600 {
+  width: 300px;
+  height: 600px;
+}
+
+.container--320x480 {
+  width: 320px;
+  height: 480px;
+}
+
+.container--160x600 {
+  width: 160px;
+  height: 600px;
+}
+
+.container--320x100 {
+  width: 320px;
+  height: 100px;
+}
+
+.container--728x90 {
+  width: 728px;
+  height: 90px;
+}
+
+#exit {
+  position:absolute;
+  top:0;
+  left:0;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
+
+.feature {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+}
+
+
+:focus {
+  outline:none;
+}
+::-moz-focus-inner {
+  border:0;
+}
+
+.headline {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  width: 100%;
+  max-width: 219px;
+}
+
+.headline img {
+  width: 100%;
+
+}
+
+.logo {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  opacity: 0;
+}
+
+.logo--center {
+  right: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 30px;
+}
+
+.bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.container--250x250 .headline {
+  width: 188px;
+}
+
+.container--300x600 .headline {
+  max-width: 194px;
+  top: 35px;
+}
+
+.container--320x480 .headline {
+  max-width: 194px;
+  top: 25px;
+}
+
+.container--160x600 .headline {
+  max-width: 118px;
+  top: 35px;
+}
+
+.container--320x100 .headline {
+  max-width: 153px;
+  top: auto;
+  bottom: 2px;
+  left: 10px;
+  transform: none;
+}
+
+.container--728x90 .headline {
+  max-width: 379px;
+  top: auto;
+  left: auto;
+  bottom: 12px;
+  right: 90px;
+  transform: none;
+}
+
+.container--160x600 .logo {
+  width: 65px;
+  bottom: 35px;
+}
+
+.container--320x100 .logo {
+  width: 43px;
+  bottom: 7px;
+  right: 9px;
+}
+
+.container--728x90 .logo {
+  bottom: 8px;
+}

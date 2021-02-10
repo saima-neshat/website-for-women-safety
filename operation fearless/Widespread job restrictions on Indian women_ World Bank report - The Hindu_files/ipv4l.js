@@ -1,0 +1,1 @@
+(function(W,D){W._aff_=W._aff_||{};W._aff_.ipi=function(){return {'aff_ip_v':'1.1'};};})(window,document);

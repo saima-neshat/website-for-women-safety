@@ -1,0 +1,33 @@
+
+<!-- saved from url=(0464)http://bcp.crwdcntrl.net/5/c=7878/rand=472387042/pv=y/ug=%23OpR%2367537%23www.thehindu.com%20%3A%20Keywords%20%3A%20working%20women%2C%20women%20workforce%2C%20women%20in%20Boards%2C%20company%20laws%2Ceconomy%2C%20business%20and%20finance%2C%20business%20(general)%2C%20social%20issue%2Cworking%20women%2C%20women%20workforce%2C%20women%20in%20Boards%2C%20company%20laws%2Ceconomy%2C%20business%20and%20finance%2C%20business%20(general)%2C%20social%20issue/rt=ifr -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" style="background-color:transparent; width: 100%; text-align: center;">
+<div><img src="./tpc=na_id" height="1" width="1"><img src="./usync" height="1" width="1"><img src="./match" width="1" height="1"><img src="./5907" width="1" height="1"><script>
+function processTargusData(json)
+{
+   if (json != null) {
+       if (json.targus != null) {
+            u = "";
+            v = "map";
+            if (json.targus.sk != null && json.targus.sk != "") {
+                u += "/tp=TARG/tpid=" + json.targus.sk;
+            }
+            if (json.targus.age != null && json.targus.age != "") {
+                u += "/genp=" + (new Date().getFullYear() - json.targus.age);
+                v = "5";
+            }
+            if (json.targus.gender != null && json.targus.gender != "") {
+                u += "/genp=gender%20-%20" + json.targus.gender;
+                v = "5";
+            }
+            if (u != "") {
+              var img = new Image();
+              img.src = "http://bcp.crwdcntrl.net/" + v + "/c=368" + u;
+              document.body.appendChild(img);
+            }
+        }
+   }
+}
+</script>
+<script src="./g.json"></script><img src="./382416.gif" width="1" height="1"></div>
+
+</body></html>

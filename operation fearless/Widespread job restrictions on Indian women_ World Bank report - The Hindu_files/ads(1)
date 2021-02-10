@@ -1,0 +1,39 @@
+{
+
+var google_ads = new Array();
+var google_ad;
+var google_radlinks = new Array();
+var google_radlink;
+var google_info = new Object();
+google_ad = {}; 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "site"; 
+google_ad.url = "https://www.googleadservices.com/pagead/aclk?sa=L&amp;ai=CGBEmbCAbV4TPCoeRvgTpiYrIBe634blEy6fmu_gCsIXVggEQASC9g78TYOWy5IOgDqABxb7ovQPIAQGpAkkj81suHFA-qAMBqgTaAU_QqkJCnQEbGWg8J48QtOeotkIe3H0zvBVOsrxARduDWkRu9Hkhue-qrK7w2htSPYHAgVvIaLiorZ3w1nkfhKr2NVbdrd_nDS5h0O7rGXVkJAU8Cs0CVTrCA0H1Kls93odpAV37nJ5swJ6lSR_ibbBG_dvx2xNHAdZnu-GkjMEbe4vyzv16rOPjyAL68YGYgTPS1gNmadGmdKsoI9rvEBrbEkrGqbQdzVSSA-rxZMh7vI4jXin5Q3afr5cKZExI5g6q_jU2a4xYKfAOM3xh5iHzgN0c6jlVrF__iAYBgAejwZdCqAemvhvYBwE&amp;num=1&amp;cid=CAASEuRom6ByjxVIPx5eNUeImGGg7A&amp;sig=AOD64_0ER5jXk5NE8wdtKdKazHLuMfD9-g&amp;client=ca-hindu_site_html&amp;adurl=http://smartomorrows.in/elss%3Futm_source%3Dlogicserve%26utm_medium%3Ddisplay%26utm_campaign%3DDisplay_smarTomorrows"; 
+google_ad.visible_url = "smartomorrows.in/elss"; 
+google_ad.p_creative_view_url = "";
+google_ad.p_engaged_view_url = "";
+google_ad.p_videoplaytime_25_url = "";
+google_ad.p_videoplaytime_50_url = "";
+google_ad.p_videoplaytime_75_url = "";
+google_ad.p_videoplaytime_100_url = "";
+google_ad.log_info = "BtwtObCAbV4TPCoeRvgTpiYrIBQDLp-a7-AIAABABOAHIAQHCEwYYxb7ovQM";
+google_ad.activeview_cid = "5GiboHKPFUg_Hl41R4iYYaDseqQ";
+google_ad.activeview_js_immediate_enabled = "true";
+google_ad.activeview_metadata = "la=0&";
+google_ad.line1 = "Save Tax upto Rs 46350*"; 
+google_ad.line2 = "Grow your money with ELSS fund and"; 
+google_ad.line3 = "Secure your future financially."; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_info.feedback_url = "https://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://www.thehindu.com/news/national/widespread-job-restrictions-on-indian-women-world-bank-report/article7635949.ece%26gl%3DIN%26hl%3Den%26client%3Dca-hindu_site_html%26hideleadgen%3D1%26ai0%3DCGBEmbCAbV4TPCoeRvgTpiYrIBe634blEy6fmu_gCsIXVggEQASC9g78TYOWy5IOgDqABxb7ovQPIAQGpAkkj81suHFA-qAMBqgTaAU_QqkJCnQEbGWg8J48QtOeotkIe3H0zvBVOsrxARduDWkRu9Hkhue-qrK7w2htSPYHAgVvIaLiorZ3w1nkfhKr2NVbdrd_nDS5h0O7rGXVkJAU8Cs0CVTrCA0H1Kls93odpAV37nJ5swJ6lSR_ibbBG_dvx2xNHAdZnu-GkjMEbe4vyzv16rOPjyAL68YGYgTPS1gNmadGmdKsoI9rvEBrbEkrGqbQdzVSSA-rxZMh7vI4jXin5Q3afr5cKZExI5g6q_jU2a4xYKfAOM3xh5iHzgN0c6jlVrF__iAYBgAejwZdCqAemvhvYBwE\x26usg\x3dAFQjCNEKDVKJZiTmW75v-YxudWGHENrRww";
+var google_attribution_text = "Ads by Google";
+var google_is_rtl = false;
+if (window.google_ad_request_done) {
+google_ad_request_done(google_ads);
+}
+if (window.google_radlink_request_done) {
+google_radlink_request_done(google_radlinks);
+}
+}

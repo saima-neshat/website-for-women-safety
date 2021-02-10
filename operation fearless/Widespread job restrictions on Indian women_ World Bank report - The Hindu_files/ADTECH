@@ -1,0 +1,22 @@
+
+var pubId=32987;
+var siteId=144464;
+var kadId=703302;
+var kadwidth=300;
+var kadheight=250;
+var kadtype=1;
+var kadpageurl= "http%3A%2F%2Fthehindu.com%2F";
+
+document.write("<scr"+"ipt type=\"text/javascript\" src=\"http://ads.pubmatic.com/AdServer/js/showad.js\"></scr"+"ipt>\n");
+
+var adcount_3946042_1_=new Image();
+adcount_3946042_1_.src="http://adnet.affinity.com/adcount/3.0/5359/3946042/0/170/AdId=8219966;BnId=1;ct=3321353948;st=3888;adcid=1;itime=396008864;reqtype=5;;kvrit=1461395587;kvreqseq=1;kvuniqimp=696f0f76d2ef4a91ad5b4efbe9f461240423;";
+
+var _comscore = _comscore || []; 
+_comscore.push({ c1: "8", c2: "16789691" ,c3: "9999999999" }); 
+(function() { 
+var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+ s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+ el.parentNode.insertBefore(s, el); 
+})(); 
+ 

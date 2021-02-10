@@ -1,0 +1,4 @@
+var logAdformatMap = {
+	"swipeUp" : { },
+	"inArticle" : { }
+};

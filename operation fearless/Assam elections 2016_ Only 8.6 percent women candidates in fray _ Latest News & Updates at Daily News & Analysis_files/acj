@@ -1,0 +1,25 @@
+OX_823235827({
+  "ads":{
+    "medium":"w",
+    "record_tmpl":"http://uk-ads.openx.net/{medium}/1.0/{rtype}?ts={txn_state}",
+    "pixels":"http://eu-u.openx.net/w/1.0/pd?plm=5&ph=50ab0170-10fc-4aec-b816-8e01043433e7",
+    "adunits" : [
+      {
+        "auid":"538282461",
+        "chain":[
+          {
+            "is_fallback":1,
+            "ad_id":"0",
+            "width":"300",
+            "height":"250",
+            "html":"<script type=\"text/javascript\">var adosWindow = window; while (!adosWindow.divName) { if (adosWindow == adosWindow.parent) break; adosWindow = adosWindow.parent } if (adosWindow.divName) { func = adosWindow.ados_passback || adosWindow.parent.ados_passback; func(adosWindow.divName, 1077227); } </script>",
+            "target":"_blank",
+            "ts":"1fHJpZD05OGRlYWJlMS0yMzgwLTQyMWQtYTQxMC1hYzljMmIzZjhkMjB8cnQ9MTQ2MTM5NjIzNHxhdWlkPTUzODI4MjQ2MXxhdW09RE1JRC5XRUJ8c2lkPTUzNzI0NTA3NXxwdWI9MTM0MDUwfHBjPUVVUnxyYWlkPTBlMjdjOTkwLWM4ZjAtNDQzNy05OGMyLTdkNmMxYzg1N2RhNXx1cj1wUTJBR1lNS1pa",
+            "type":"html",
+            "ad_url":"<script type=\"text/javascript\">var adosWindow = window; while (!adosWindow.divName) { if (adosWindow == adosWindow.parent) break; adosWindow = adosWindow.parent } if (adosWindow.divName) { func = adosWindow.ados_passback || adosWindow.parent.ados_passback; func(adosWindow.divName, 1077227); } </script>"
+          }
+        ]
+      }
+    ]
+  }
+});

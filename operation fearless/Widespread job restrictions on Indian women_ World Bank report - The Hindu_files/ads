@@ -1,0 +1,39 @@
+{
+
+var google_ads = new Array();
+var google_ad;
+var google_radlinks = new Array();
+var google_radlink;
+var google_info = new Object();
+google_ad = {}; 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "https://www.googleadservices.com/pagead/aclk?sa=L&amp;ai=CuKQ9aSAbV8howZ2-BMiSqMAHlO_2o0SyrceC8gHAjbcBEAEgvYO_E2DlsuSDoA6gAd7hp84DyAEBqAMBqgTZAU_QnIbY-20AH3zlRA77czRSkG2E1x2OOr9OrmrxzaYA_KW7Oq_vYPfvtDtxfr0iZ66h675C1pPmFSrFHlecDmwXtpEM0yDwSD08o6UOJJRZj73-jP1j4KgadtG2A-e2PVORaWohmGde80mWoGPNOnLGkplbDDIbh-7Om2FZUn04cpLBc5WW_6rjIbS4TxdT0dDTl9TpEh8fayEE0OdRoOh1Yv-bOSDn0-X5bRrY90xwtX4Xy_2LPrl16-Y5Q1oXlTmTzXe1iYJ1aeBT0tqGziyCQXfwculy0O2IBgGAB4qe2DGoB6a-G9gHAdgTCA&amp;num=1&amp;cid=CAASEuRotbWbbFfZOv3MFvga_vAy1Q&amp;sig=AOD64_0-o5m3ljAwTdzzVlraVY6H8HEeIA&amp;client=ca-hindu_site_html&amp;adurl=http://4055.xg4ken.com/trk/v1%3Fprof%3D470%26camp%3D1543%26affcode%3Dcr901699%26kct%3Dgoogle%26kchid%3D6605328373%26cid%3D64886612290%7C196559%7C%26mType%3D%26networkType%3Dcontent%26kdv%3Dc%26criteriaid%3Dkwd-0%26adgroupid%3D13641593290%26campaignid%3D171998050%26locphy%3D1007749%26adpos%3Dnone%26url%3Dhttp://download.fromdoctopdf.com/index.jhtml%3Fpartner%3DY6xdm270"; 
+google_ad.visible_url = "www.fromdoctopdf.com"; 
+google_ad.p_creative_view_url = "";
+google_ad.p_engaged_view_url = "";
+google_ad.p_videoplaytime_25_url = "";
+google_ad.p_videoplaytime_50_url = "";
+google_ad.p_videoplaytime_75_url = "";
+google_ad.p_videoplaytime_100_url = "";
+google_ad.log_info = "BvJ7SaSAbV8howZ2-BMiSqMAHALKtx4LyAQAAEAE4AcgBAcITBhje4afOAw";
+google_ad.activeview_cid = "5Gi1tZtsV9k6_cwW-Br-8DLVovU";
+google_ad.activeview_js_immediate_enabled = "true";
+google_ad.activeview_metadata = "la=0&";
+google_ad.line1 = "Start Download Now"; 
+google_ad.line2 = "Convert From Doc to PDF, PDF to Doc"; 
+google_ad.line3 = "Simply With The Free On-line App!"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_info.feedback_url = "https://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://www.thehindu.com/news/national/widespread-job-restrictions-on-indian-women-world-bank-report/article7635949.ece%26gl%3DIN%26hl%3Den%26client%3Dca-hindu_site_html%26hideleadgen%3D1%26ai0%3DCuKQ9aSAbV8howZ2-BMiSqMAHlO_2o0SyrceC8gHAjbcBEAEgvYO_E2DlsuSDoA6gAd7hp84DyAEBqAMBqgTZAU_QnIbY-20AH3zlRA77czRSkG2E1x2OOr9OrmrxzaYA_KW7Oq_vYPfvtDtxfr0iZ66h675C1pPmFSrFHlecDmwXtpEM0yDwSD08o6UOJJRZj73-jP1j4KgadtG2A-e2PVORaWohmGde80mWoGPNOnLGkplbDDIbh-7Om2FZUn04cpLBc5WW_6rjIbS4TxdT0dDTl9TpEh8fayEE0OdRoOh1Yv-bOSDn0-X5bRrY90xwtX4Xy_2LPrl16-Y5Q1oXlTmTzXe1iYJ1aeBT0tqGziyCQXfwculy0O2IBgGAB4qe2DGoB6a-G9gHAdgTCA\x26usg\x3dAFQjCNG8uzyZtARBy47r8DVcOCboZJMYqQ";
+var google_attribution_text = "Ads by Google";
+var google_is_rtl = false;
+if (window.google_ad_request_done) {
+google_ad_request_done(google_ads);
+}
+if (window.google_radlink_request_done) {
+google_radlink_request_done(google_radlinks);
+}
+}

@@ -1,0 +1,32 @@
+/*Display Title*/
+div.cnWidget .cnHeader h3.cnWidgetTitle {
+	font-size: 15px;
+	font-weight: 700;
+	font-family: 'Roboto Condensed',sans-serif;
+    letter-spacing: .3pt;
+    color: #cd2f1f !important;
+    text-transform: uppercase;
+    text-decoration: underline;
+    
+}
+
+                    
+/*Dropdown Menu*/
+div.cnWidget .cnMenuExpanded .cnMenuItems .cnMenuItem[selected="true"] {
+	background-color: #cd2f1f;
+}
+
+div.cnWidget .cnMenuExpanded .cnMenuItems .cnMenuItem:hover {
+	background-color: #cd2f1f;
+}
+
+/*Fullscreen Button*/
+div.cnWidget .cnFullscreen {
+	background-color: #cd2f1f;
+    font-weight: bold;
+	border: none;
+	color: #fff;
+	text-shadow: none;
+	border-radius: 3px;
+	margin: 3px;
+}
